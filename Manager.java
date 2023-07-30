@@ -9,4 +9,13 @@ public class Manager extends Employee {
         // TODO
         return super.toString();
     }
+
+    @Override
+    public void addProject(Project project) {
+        if (this.getProjects().size() == 3) {
+            System.out.println("Karyawan " + this.getName() + " hanya dapat mengikuti tiga proyek.");
+        } else {
+            this.getProjects().add(project);
+        }
+    }
 }
