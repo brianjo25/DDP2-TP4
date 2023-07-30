@@ -9,4 +9,9 @@ public class HRD extends Division {
         super.addEmployee(employee);
         // TODO: Lengkapi
     }
+
+    @Override
+    public String getDivisionName() {
+        return "HRD";
+    }
 }
