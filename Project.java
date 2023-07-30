@@ -8,7 +8,7 @@ public class Project {
 
     // TODO: Lengkapi constructor
     public Project(String name) {
-
+        
     }
 
     // TODO: Lengkapi logika menambahkan anggota proyek
@@ -20,5 +20,9 @@ public class Project {
     // TODO: Lengkapi logika menghapus anggota proyek
     public void removeMember(Employee employee) {
 
+    }
+
+    public String getName() {
+        return this.name;
     }
 }
