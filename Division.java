@@ -16,4 +16,12 @@ public class Division {
     }
 
     // Tambahkan getter & setter lainnya sesuai kebutuhan
+
+    public int getBaseSalary() {
+        return this.baseSalary;
+    }
+
+    public String getDivisionName() {
+        return "";
+    }
 }
