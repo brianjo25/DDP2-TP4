@@ -9,4 +9,9 @@ public class Marketing extends Division {
         super.addEmployee(employee);
         // TODO: Lengkapi
     }
+
+    @Override
+    public String getDivisionName() {
+        return "Marketing";
+    }
 }
