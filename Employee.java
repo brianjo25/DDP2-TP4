@@ -58,4 +58,14 @@ public class Employee {
     public List<Project> getProjects() {
         return this.projects;
     } 
+
+    public String getEmployeeType() {
+        if (this instanceof Manager) {
+            return "Manager";
+        } else if (this instanceof Intern) {
+            return "Intern";
+        } else {
+            return "Karyawan";
+        }
+    }
 }
